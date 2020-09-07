@@ -5,7 +5,7 @@ import sys
 if len(sys.argv) != 4:
     print('引数の数が違います')
     print('usage: python file_util.py [ROOT_PATH] [Before File Prefix] [After File Prex]')
-    print('ex) python file_util.py "C:\xyz\\\\" XXXX YYYY')
+    print('ex) python file_util.py "C:\\xyz\\\\" XXXX YYYY')
     sys.exit(1)
 
 root_path = sys.argv[1]
