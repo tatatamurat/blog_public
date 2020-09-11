@@ -58,5 +58,5 @@ left, right = get_image_range(img_range, w)
 crop_img = img.crop((left, 0, right, h))
 
 new_file_path = get_new_file_path(img_path, img_range, overwrite_flag)
-# print(new_file_path)
+
 crop_img.save(new_file_path, quality=95)
